@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    position: relative;
+    padding-top: 150px;
+}
+@media screen and (max-width:576px){
+    p {
+    font-size: 9px;
+    color: #969295;
+} 
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+    p {
+    font-size: 11px;
+    color: #969295;
+}
+}
+@media screen and (max-width:768px) {
+body {
+    padding-top:  60px;
+    }
+    
+}
+p {
+    font-size: 14px;
+    color: #969295;
+}
+
+img {
+     width:100%;
+}
+
+
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+}
+/*--------------------------
+         navigation
+--------------------------*/
+
+.nav-link {
+    font-family: mr-eaves-modern, sans-serif;
+    font-size:18px;
+    letter-spacing: 0.1em;
+}
+.navigation{
+    border-bottom: 1.5px solid #E2C9DE;
+}
+
+span.fab {
+    color: #969295;    
+    }
+
+span.fab:hover{
+   color: #575759; 
+}
+
+
+@media screen and (min-width:576px) and (max-width:991px) {
+.nav-item {
+    margin: 15px 20px;
+}   
+.navbar-nav {
+    margin-left: 30px;
+    margin-top:20px;
+}
+
+.icon {
+    position: absolute;
+    top: 25px;
+    right: 70px;
+    z-index: 1;
+}
+
+.fab {
+    margin: 20px;
+}
+
+}
+@media screen and (min-width:992px){
+    .nav-item {
+    margin: 30px 40px;
+} 
+    .navbar-nav {
+    margin-left: 120px;
+}
+.icon {
+    position: absolute;
+    top: 25px;
+    right: 90px;
+    z-index: 1;
+}
+.fab {
+    margin: 20px;
+}
+
+}
+
+/*---------------------------
+      header main top
+---------------------------*/
+
+/*　メディアクエリ　*/
+@media screen and (max-width:576px) { 
+     .maintop {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+    .header_title{
+    font-family: mr-eaves-modern, sans-serif;
+    font-size:17px;
+    color: #969295;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    text-align: center;
+    letter-spacing: 0.17em;
+}  
+    .red {
+    color: #D30D0D;
+    font-size: 23px;
+    opacity: 0.5;
+}
+    .main_title {
+    font-size: 35px
+} 
+    
+    header {
+    margin: 30px 0 0;
+}
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+     .maintop {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+   .header_title{
+    font-family: mr-eaves-modern, sans-serif;
+    font-size: 22px;
+    color: #969295;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    text-align: center;
+    letter-spacing: 0.17em;
+}
+    .red {
+    color: #D30D0D;
+    font-size: 40px;
+    opacity: 0.5;
+}
+.main_title {
+    font-size: 45px
+}
+    header {
+    margin: 30px 0 100px;
+}
+}
+
+@media screen and (min-width:992px) {
+     .maintop {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+    .header_title{
+    font-family: mr-eaves-modern, sans-serif;
+    font-size:33px;
+    color: #969295;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    text-align: center;
+    letter-spacing: 0.17em;
+}
+    
+    .red {
+    color: #D30D0D;
+    font-size: 55px;
+    opacity: 0.5;
+}
+.main_title {
+    font-size: 65px
+}
+   
+    header {
+    margin: 50px 0 170px;
+}
+}
+
+/*---------------------------
+       hair portfoli
+---------------------------*/
+h2 {
+    display: inline-block;
+    border-bottom: solid 3px #E2C9DE;
+    color: #969295;
+    padding-bottom: 10px;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.17em;
+    font-size: 32px;
+}
+
+.h5 {
+    display: inline-block;
+    color: #969295;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.17em;
+}
+h5 {
+    display: inline-block;
+    color: #969295;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.17em;
+}
+
+.desing {
+    background-color:  #f7eef6;
+    padding: 20px;
+}
+
+.contenthair {
+    margin-top: 20px;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.subtitle {
+    margin-top: 20px;
+    border: 1px solid #E2C9DE;
+    background-color: #E2C9DE;
+    padding:7px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+.bold {
+    font-weight: bold;
+    font-size: 15px;
+}
+.hair1 {
+    padding-left: 50px;
+}
+.pb {
+    border: 1px solid #E2C9DE;
+    padding: 20px;
+    margin: 0 15px;
+}
+.pbh {
+    background-image:url(hair/153761.png);
+    background-repeat:  no-repeat;
+    background-position: right 7% bottom 10%; 
+    background-size:18%;
+}
+.green {
+    color: green;
+}
+
+.bejyu {
+    color: #3F3118;
+}
+
+.red {
+    color: red;
+    font-size: 15px;
+}
+.senn {
+    background: linear-gradient(transparent 70%, #f9fbce 70%);
+}
+
+
+/*　メディアクエリ　*/
+@media screen and (max-width:576px) {
+    .pb,.pbh,.pbhh {
+        font-size: 11px;
+}
+    .bold {
+    font-weight: bold;
+    font-size: 12px;
+}  
+    .red {
+    color: red;
+    font-size: 11px;
+}
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+    .pb,.pbh,.pbhh {
+        font-size: 13px;
+}
+    .bold {
+    font-weight: bold;
+    font-size: 14px;
+}   
+    .red {
+    color: red;
+    font-size: 13px;
+}
+}
+@media screen and (min-width:992px){
+    
+}
+
+/*---------------------------
+          footer
+---------------------------*/
+
+footer {
+    background-color: #9E789C;
+    opacity: 0.5;
+    margin-top: 130px;
+}
+
+.nav-link {
+    color: #FFF;
+}
